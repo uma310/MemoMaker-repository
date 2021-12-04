@@ -1,4 +1,4 @@
-# MemoMaker-repository
+# MemoMaker
 個人的な勉強のために練習で作成したメッセージアプリ風のメモアプリです。
 
 # DEMO
