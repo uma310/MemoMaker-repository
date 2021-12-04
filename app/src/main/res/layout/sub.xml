@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:layout_gravity="right|bottom"
+        android:textSize="12sp"
+        android:layout_weight="1"
+        android:gravity="right"
+        />
+     <Button
+            android:id="@+id/text_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="right"
+            android:gravity="left"
+            android:textSize="14sp"
+            app:backgroundTint="#c7ffe2"
+            android:minHeight="20dp"
+            android:minWidth="0dp"
+            android:maxWidth="300dp"
+            android:padding="14dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            />
+</LinearLayout>
+
+
+</LinearLayout>
